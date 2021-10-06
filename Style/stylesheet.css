@@ -14,11 +14,11 @@
 }
 
 header{
-    background-color: rgb(31, 31, 31);
+    background-color: #d1d1c6ce;
     margin-left: 0%;
     border-bottom-style: solid;
     border-width: 3px;
-    border-color: rgb(154, 212, 191);    
+    border-color: rgb(255, 255, 255);    
     padding-bottom: 20px;
     padding-bottom: 20;
 }
@@ -61,15 +61,15 @@ nav li{
 }
 
 nav a{
-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 text-decoration: none;
 text-transform: uppercase;
-font-size: 16px;
+font-size: 20px;
 
 }
 
 nav a:hover{
-    color:rgb(154, 212, 191);
+    color:rgb(71, 114, 163);
     font-weight: bold;
    
 }
@@ -77,7 +77,7 @@ nav a::before{
     content: '';
     display: block;
     height: 3px;
-    background-color: rgb(154, 212, 191);
+    background-color: rgb(71, 114, 163);
 
     position: absolute;
     top: 0; 
@@ -93,15 +93,16 @@ nav a:hover::before {
 
 
 .footer-container{
-background-color: rgb(31, 31, 31);
-padding-bottom: 2rem;
+background-color: #d1d1c6ce;
+padding-bottom: 0rem;
 }
 
 .footer{
-    width: 80%;
+    width: 100%;
     height: 15vh;
-    background-color: rgb(31, 31, 31);
-    color: blanchedalmond;
+    margin-bottom: 0;
+    background-color: #d1d1c6ce;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -121,12 +122,12 @@ padding-bottom: 2rem;
 }
 
 .footer-heading a {
-color: #fff;
+color: rgb(0, 0, 0);
 text-decoration: none;
 margin-bottom: 0.5rem;
 }
 .footer-heading a:hover{
-    color:rgb(154, 212, 191);
+    color:rgb(28, 83, 146);
     transition: 0.3s ease-out;
 }
 
@@ -177,7 +178,7 @@ text-align: center;
 color: black;
 padding-top: 4em;
 text-transform: uppercase;
-background-color: #E0E0D8;
+background-color: #DFDFD7;
 }
 
 .second{
@@ -301,7 +302,7 @@ margin: auto 10%;
 
 
 #mainContainer{
-    background-color:#E0E0D8;
+    background-color:#DFDFD7;
     padding-left: 650px;
     padding-right: 500px;
     height: 100%;
@@ -332,7 +333,7 @@ text-align: left;
 /* Stylesheet for products */
 
 #productSiteContainer{
-    background-color:#E0E0D8;
+    background-color:#DFDFD7;
     padding: 50px 200px 20px 200px;
     height: 100%;
 
@@ -458,7 +459,7 @@ a {
 /* Stylesheet for shopping cart */ 
 
 .cartSiteContainer{
-    background-color: #E0E0D8;
+    background-color: #DFDFD7;
     padding: 10rem 30rem 20rem;
     text-align: center;
 
