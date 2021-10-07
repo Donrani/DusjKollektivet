@@ -327,7 +327,10 @@ margin: 80px auto;
 margin-left: 0px;
 font-size: 25px;
 text-align: left;
-
+}
+.historyContainerList{
+    list-style:none;
+    margin-top: 1em;
 }
 
 /* Stylesheet for products */
