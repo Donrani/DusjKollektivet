@@ -96,7 +96,7 @@ nav a:hover::before {
 
 
 .footer-container{
-background-color: #fff1ee;
+background-color: #dbdbdb;
 padding-bottom: 0rem;
 }
 
@@ -104,7 +104,7 @@ padding-bottom: 0rem;
     width: 100%;
     height: 15vh;
     margin-bottom: 0;
-    background-color: #fff1ee;
+    background-color: #dbdbdb;
     color: #8c88e9;
     display: flex;
     justify-content: center;
@@ -182,7 +182,7 @@ text-align: center;
 color: #7572c7;
 padding-top: 4em;
 text-transform: uppercase;
-background-color: #dbdbdb
+background-color: #fff1ee
 ;
 }
 
@@ -313,7 +313,7 @@ margin: auto 10%;
 
 
 #mainContainer{
-    background-color:#dbdbdb ;
+    background-color:#fcf3f1 ;
     padding-left: 5rem;
     padding-right: 5rem;
     height: 100%;
@@ -400,14 +400,14 @@ h5{
 
 .imageProductContainer a{
     display: block;
-    color: black;
+    color: #fff1ee;
     text-decoration: none;
+    text-align: center;
 }
 
 .productOrderContainer:hover{
-    background-color: #8c56f0;
-    ;
-    transition: 1s;
+    background-color: #6a26e7;
+    transition: 1s ease-in-out;
 }
 
 .pictureProduct{
@@ -476,17 +476,19 @@ a {
 /* Stylesheet for shopping cart */ 
 
 .cartSiteContainer{
-    background-color: #DFDFD7;
-    padding: 10rem 30rem 20rem;
+    background-color: #fff1ee;
+    padding: 10rem 20rem 20rem;
     text-align: center;
+    color: #7572c7;
+    font-size: 30px;
 
 }
 
 .cartProductContainer{
-    background-color:rgb(233, 233, 233);
-    margin-right: 3rem;
+    background-color: #fff1ee;
+    margin-right: 2rem;
     display: inline-block;
-    padding: 1em;
+    padding: 2rem;
     text-align: center;
    
 }
@@ -499,25 +501,30 @@ a {
 }
 
 .cartSumContainer{
-    background-color: rgb(233, 233, 233);
-    padding: 3em;
+    background-color: #fff1ee;
+    padding: 1rem 5rem 5rem;
+    margin-left: 3rem;
     text-align: left;
+    font-size: 16px;
 }
 
 .cartSumContainer a{
-    padding: 0.5rem;
+    padding: 1rem;
     text-decoration: none;
     display: block;
     border-style: solid;
-    margin-top: 3rem;
-    background-color: greenyellow;
-    color: black;
+    margin-top: 6rem;
+    background-color: #8c56f0;
+    color: #fff1ee;
+    font-size: 20px;
 }
 
 .allroundContainer{
-    background-color: rgb(228, 228, 228);
+    background-color: white;
     padding: 2rem;
     display: inline-flex;
     margin-top: 4rem;
+    font-size: 16px;
+    color: black;
 
 }
