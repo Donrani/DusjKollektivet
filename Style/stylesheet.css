@@ -96,7 +96,7 @@ nav a:hover::before {
 
 
 .footer-container{
-background-color: #dbdbdb;
+background-color: #ececec;
 padding-bottom: 0rem;
 }
 
@@ -104,7 +104,7 @@ padding-bottom: 0rem;
     width: 100%;
     height: 15vh;
     margin-bottom: 0;
-    background-color: #dbdbdb;
+    background-color: #ececec;
     color: #8c88e9;
     display: flex;
     justify-content: center;
@@ -158,10 +158,10 @@ margin-bottom: 0.5rem;
     width: 100px;
     height: 40px;
     border-radius: 4px;
-    background-color:#7572c7;
+    background-color:#6461c2;
     outline: none;
     border: none;
-    color: #fff1ee;
+    color: #ececec;
     font-size: 1rem;
 }
 
@@ -182,13 +182,13 @@ text-align: center;
 color: #7572c7;
 padding-top: 4em;
 text-transform: uppercase;
-background-color: #fff1ee
+background-color: #ececec
 ;
 }
 
 .second{
 padding: 30%;
-background-image: url(/Style/DropCounts3.jpg) ;
+background-image: url(/Style/Droplet.jpg) ;
 
 background-size: 100%;
 
@@ -313,7 +313,7 @@ margin: auto 10%;
 
 
 #mainContainer{
-    background-color:#fcf3f1 ;
+    background-color:#ececec ;
     padding-left: 5rem;
     padding-right: 5rem;
     height: 100%;
@@ -348,7 +348,7 @@ color: #7572c7;
 /* Stylesheet for products */
 
 #productSiteContainer{
-    background-color:#fff1ee;
+    background-color:#ececec;
     padding: 15rem 5rem;
     height: 100%;
     color: #7572c7;
@@ -400,7 +400,7 @@ h5{
 
 .imageProductContainer a{
     display: block;
-    color: #fff1ee;
+    color: #ececec;
     text-decoration: none;
     text-align: center;
 }
@@ -476,7 +476,7 @@ a {
 /* Stylesheet for shopping cart */ 
 
 .cartSiteContainer{
-    background-color: #fff1ee;
+    background-color: #ececec;
     padding: 10rem 20rem 20rem;
     text-align: center;
     color: #7572c7;
@@ -485,7 +485,7 @@ a {
 }
 
 .cartProductContainer{
-    background-color: #fff1ee;
+    background-color: #ececec;
     margin-right: 2rem;
     display: inline-block;
     padding: 2rem;
@@ -501,7 +501,7 @@ a {
 }
 
 .cartSumContainer{
-    background-color: #fff1ee;
+    background-color: #ececec;
     padding: 1rem 5rem 5rem;
     margin-left: 3rem;
     text-align: left;
@@ -515,7 +515,7 @@ a {
     border-style: solid;
     margin-top: 6rem;
     background-color: #8c56f0;
-    color: #fff1ee;
+    color: #ececec;
     font-size: 20px;
 }
 
