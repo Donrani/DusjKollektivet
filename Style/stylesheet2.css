@@ -15,6 +15,7 @@
   justify-content: space-between;
   flex-direction: row;
   height: 10vh;
+  margin-bottom: 1rem;
 }
 
 .navLink {
@@ -48,7 +49,7 @@ nav a {
   justify-content: center;
   background-color: white;
   color: lightblue;
-  height: 30vh;
+  height: 15vh;
 }
 
 .flexFooterColumns {
@@ -59,7 +60,7 @@ nav a {
 
 .footerColumn {
   min-width: 15vw;
-  margin: 0 2em;
+  margin: auto 2em;
 }
 
 /* Stylesheet for Index */
@@ -67,15 +68,16 @@ nav a {
 /*Stylesheet for first section in Index*/
 
 .first {
+  margin-top: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .forsideLogo {
-  flex: 1 1 100%;
+  flex: 1 1 1000%;
   min-width: 0;
-  width: 50vw;
+  width: 25vw;
   margin-top: 10%;
 }
 
@@ -113,7 +115,7 @@ nav a {
   padding-top: 20%;
   font-family: "Lato", sans-serif;
   color: white;
-  font-size: 5em;
+  font-size: 3em;
   margin-bottom: 0rem;
 }
 
@@ -121,17 +123,94 @@ nav a {
   font-family: "Merriweather", serif;
   color: white;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .third a:hover {
   color: whitesmoke;
-  font-size: 1.3em;
   cursor: pointer;
 }
 
 .third video {
   margin-top: 3rem;
   border: none;
-  border-radius: 3rem;
+  border-radius: 4rem;
+  margin-bottom: 4rem;
+}
+
+@media  screen and (max-width: 970px) {
+  .third video {
+  width: 400px;
+  height: auto;
+}
+}
+
+/*Stylesheet for AboutUs*/
+
+#mainContainer{
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+}
+
+#aboutText{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 150px;
+
+}
+#historyContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.historyContainerList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.historyContainerList li{
+  margin: 1em 3em;
+  border-color:lawngreen;
+  border-width: 5px;
+  border-style: solid;
+  list-style-type: none;
+}
+
+#employeesContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.imageContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 1em; 
+}
+.profilePicture{
+  width: 150px;
+  height: 200px;
+}
+
+/*Stylesheet for Products*/
+
+#productSiteContainer{
+display: flex;
+flex-direction: column;
+}
+
+.imageProductContainer{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+.pictureProduct{
+  width: 400px;
+  height: auto;
 }

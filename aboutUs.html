@@ -12,37 +12,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Merriweather:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="/Style/stylesheet.css" />
+    <link rel="stylesheet" href="/Style/stylesheet2.css" />
     <title>About Us</title>
   </head>
 
   <body>
     <header>
-      <div class="Navbar">
-        <img class="navLogo" src="/Style/Logoutenbakgrunn2.png" alt="Logo">
-        <div id="myMenu">
-          <div class="myWrapper"></div>
-        </div>
-        <nav>
-          <ul>
-            <a href="/"
-              ><img src="/Style/HomePage2.jpg" height="40" width="auto"
-            /></a>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="profile.html">Profile</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
+      <nav class= "navBar">
+      <img class="navLogo" src="/Style/Logoutenbakgrunn2.png" alt="Logo">
+        <ul class ="navLink">
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="profile.html">Profile</a></li>
+        </ul>
+      </nav>
+
+  </header>
 
 
     <div>
       <main id="mainContainer">
         <div id="aboutContainer">
           <div id="aboutText">
-            <h1>This is us</h1>
+            <h1>Our team</h1>
             <h3>
               Recognizing our everyday needs to beneficially rework daily
               undesired complications, preventing conflict and unnecessary
@@ -62,7 +55,7 @@
           </div>
 
         <div id="employeesContainer">
-          <h3>Our Employees</h3>
+        
 
           <div class="imageContainer">
             <img
@@ -115,28 +108,34 @@
         </div>
       </main>
     </div>
-    <div class="footer-container">
-      
-      <div class="footer">
-        <div class="footer-heading footer-1">
-        <h2>About Us</h2>
-        <a href="#">Investors</a>
-        <a href="#">Terms of Service</a>
-      </div>
-        
-      <div class="footer-heading footer-2">
-       <h2>Contact Us</h2>
-       <a href="#">Contact</a>
-       <a href="#">Jobs</a>
-       <a href="#">Support</a>
-       <a href="#">Sponsorship</a>
-      </div>
+    
+  
+  <div class="footer-container">
 
-      <div class="footer-email-form">
-        <h2>Join Our newsletter</h2>
-        <input type="email" placeholder="Enter your emailadress" id="footer-email">
-        <input type="submit" value="Sign Up" id="footer-email-btn">
-      </div>
+    <div class="footer footerColumn">
+      <h2>About Us</h2><div class="flexFooterColumns">
+      <a href="#">Investors</a>
+      <a href="#">Terms of Service</a>
+    </div>
+    </div>
+
+    <div class="footer-heading footer-2 footerColumn">
+     <h2>Contact Us</h2>
+     <div class="flexFooterColumns">
+     <a href="#">Contact</a>
+     <a href="#">Jobs</a>
+     <a href="#">Support</a>
+     <a href="#">Sponsorship</a>
+    </div>
+    </div>
+
+    <div class="footer-email-form newsLetter footerColumn">
+      <h2>Join Our newsletter</h2>
+      <div>
+      <input type="email" placeholder="Enter your emailadress" id="footer-email">
+      <input type="submit" value="Sign Up" id="footer-email-btn">
+    </div>
+    </div>
 
   </div>
   
