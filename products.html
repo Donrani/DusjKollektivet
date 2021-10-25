@@ -1,95 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital ,wght@0,300;1,300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Merriweather:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="/Style/stylesheet2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital ,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Merriweather:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/Style/stylesheet2.css" />
     <title>Products</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <img class="navLogo" src="/Style/Logoutenbakgrunn2.png" alt="Logo" />
+        <ul class="navLink">
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="profile.html">Profile</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <header>
-
-    <nav class= "navBar">
-    <img class="navLogo" src="/Style/Logoutenbakgrunn2.png" alt="Logo">
-      <ul class ="navLink">
-        <li><a href="aboutus.html">About Us</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="profile.html">Profile</a></li>
-      </ul>
-    </nav>
-
-</header>
-        
-
-        <main id=productSiteContainer>
-
-        
-            <div id="productContainer">
-                
-                <div id="productContainerText">
-                <h1>Our Products</h1>
-            </div>
-            </div>
-    
-           
-            <div id="ourProducts">
-    
-    
-                <div class="imageProductContainer">
-                    <img class="pictureProduct" src="/Style/ProductPhoto1.jpg" alt="Bilde">
-                    <h4>The AdjustTemp</h4> <p>Share a shower with other people? Tired of always having to spend time on finding your dream temperature before you can start your shower? Make life easier with The TempAdjust! Save your temperature setting and get it back in a jiffy with the handy touch screen on this smart and handy device. Save your own, your roommates’, and even your pet’s temperature. Easy to use, and saves you time and water resources!
-                    </p>
-                  <h5>NOK 0000,-</h5>
-                    <div class="productOrderContainer">
-                    <a href="shoppingCart.html"><h3>Order now</h3></a>
-                </div>
-                </div>
-                    <div class="imageProductContainer"><img class="pictureProduct" src="/Style/ProductCommingSoon.jpeg" alt="Bilde"><h4>More products coming soon</h4></div>
-
-            </div>
-    
-    
-        </main>
-    
-    
-        <div class="footer-container">
-
-          <div class="footer footerColumn">
-            <h2>About Us</h2><div class="flexFooterColumns">
-            <a href="#">Investors</a>
-            <a href="#">Terms of Service</a>
-          </div>
-          </div>
-      
-          <div class="footer-heading footer-2 footerColumn">
-           <h2>Contact Us</h2>
-           <div class="flexFooterColumns">
-           <a href="#">Contact</a>
-           <a href="#">Jobs</a>
-           <a href="#">Support</a>
-           <a href="#">Sponsorship</a>
-          </div>
-          </div>
-      
-          <div class="footer-email-form newsLetter footerColumn">
-            <h2>Join Our newsletter</h2>
-            <div>
-            <input type="email" placeholder="Enter your emailadress" id="footer-email">
-            <input type="submit" value="Sign Up" id="footer-email-btn">
-          </div>
-          </div>
-      
+    <main id="productSiteContainer">
+      <div id="productContainer">
+        <div id="productContainerText">
+          <h1>Our Products</h1>
         </div>
-    
-</body>
+      </div>
+
+      <div id="ourProducts">
+        <div class="imageProductContainer">
+          <img
+            class="pictureProduct"
+            src="/Style/ProductPhoto1.jpg"
+            alt="Bilde"
+          />
+          <div id="imageProductText">
+            <h4>The AdjustTemp</h4>
+            <p>
+              Share a shower with other people? Tired of always having to spend
+              time on finding your dream temperature before you can start your
+              shower? Make life easier with The TempAdjust! Save your
+              temperature setting and get it back in a jiffy with the handy
+              touch screen on this smart and handy device. Save your own, your
+              roommates’, and even your pet’s temperature. Easy to use, and
+              saves you time and water resources!
+            </p>
+            <h5>NOK 0000,-</h5>
+            <div class="productOrderContainer">
+              <a href="shoppingCart.html"><h3>Order now</h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="imageProductContainer">
+          <div id="imageProductText">
+            <h4>More solutions on the way!</h4>
+            <p>Remember to join our newsletter.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="footer-container">
+      <div class="footer footerColumn">
+        <h2>About Us</h2>
+        <div class="flexFooterColumns">
+          <a href="#">Investors</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+
+      <div class="footer-heading footer-2 footerColumn">
+        <h2>Contact Us</h2>
+        <div class="flexFooterColumns">
+          <a href="#">Contact</a>
+          <a href="#">Jobs</a>
+          <a href="#">Support</a>
+          <a href="#">Sponsorship</a>
+        </div>
+      </div>
+
+      <div class="footer-email-form newsLetter footerColumn">
+        <h2>Join Our newsletter</h2>
+        <div>
+          <input
+            type="email"
+            placeholder="Enter your emailadress"
+            id="footer-email"
+          />
+          <input type="submit" value="Sign Up" id="footer-email-btn" />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

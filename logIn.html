@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital ,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Merriweather:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/Style/stylesheet2.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <img class="navLogo" src="/Style/Logoutenbakgrunn2.png" alt="Logo" />
+        <ul class="navLink">
+          <a href="/"
+            ><img src="/Style/HomePage2.jpg" height="40" width="auto"
+          /></a>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="profile.html">Profile</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="registerSite">
+        <form action="action_page.php">
+          <div class="container">
+            <h1>Sign in</h1>
+            <p></p>
+            <hr />
+
+
+            <label for="email"><b>Email</b></label>
+            <input
+              type="text"
+              placeholder="Enter Email"
+              name="email"
+              id="email"
+              required
+            />
+
+            <label for="psw"><b>Password</b></label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="psw"
+              id="psw"
+              required
+            />
+
+            <hr />
+
+            </p>
+            <button type="submit" class="registerbtn">Sign in</button>
+          </div>
+
+        </form>
+      </div>
+    </main>
+
+    <div class="footer-container">
+      <div class="footer footerColumn">
+        <h2>About Us</h2>
+        <div class="flexFooterColumns">
+          <a href="#">Investors</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+
+      <div class="footer-heading footer-2 footerColumn">
+        <h2>Contact Us</h2>
+        <div class="flexFooterColumns">
+          <a href="#">Contact</a>
+          <a href="#">Jobs</a>
+          <a href="#">Support</a>
+          <a href="#">Sponsorship</a>
+        </div>
+      </div>
+
+      <div class="footer-email-form newsLetter footerColumn">
+        <h2>Join Our newsletter</h2>
+        <div>
+          <input
+            type="email"
+            placeholder="Enter your emailadress"
+            id="footer-email"
+          />
+          <input type="submit" value="Sign Up" id="footer-email-btn" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
