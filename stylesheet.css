@@ -225,6 +225,8 @@ nav a:hover::before {
   margin-bottom: 0rem;
 }
 
+
+
 .third a {
   font-family: "Merriweather", serif;
   color: white;
@@ -520,3 +522,61 @@ a {
   font-size: 16px;
   color: black;
 }
+
+
+
+
+
+<main id="productSiteContainer">
+<div id="productContainer">
+  <div id="productContainerText">
+  
+  </div>
+</div>
+
+<div id="ourProducts">
+  <div class="imageProductContainer">
+
+    <div id="imageProductText">
+      <h4>The AdjustTemp</h4>
+      
+      <div class="productSection">
+      <p>
+        Tired of always having to spend time on finding your dream temperature before you can start your
+        shower? 
+      </p>
+    </div>
+
+    <div class="productSection">
+      <p>
+        There are many benefits of morningshower, and you don't want to start the day with frustration.  
+      </p>
+      </div>
+
+      <div class="productSection">
+      <p>
+        In an average home, showers are typically the third largest water use. Let's reduce this. 
+      </p>
+      </div>
+
+
+
+        <p>
+        Let us make your life easier with The TempAdjust! Save your
+        temperature setting and get it back in a jiffy with the handy
+        touch screen on this smart and handy device. Save your oSwn, your
+        roommates’, and even your pet’s temperature. Easy to use, and
+        saves you time and water resources!
+      </p>
+      <h5>NOK 0000,-</h5>
+      <div class="productOrderContainer">
+        <a href="shoppingCart.html"><h3>Order now</h3></a>
+      </div>
+    </div>
+  </div>
+    <div id="imageProductText2">
+      <h4>More solutions on the way!</h4>
+      <p>Remember to join our newsletter.</p>
+    </div>
+  </div>
+</div>
