@@ -283,16 +283,18 @@ nav a:hover::before {
   display: flex;
   height: auto;
   background-color: #ececec;
-  flex-direction: column;
+  flex-direction: row;
   flex: 1 100%;
-  column-gap: 20%;
+  row-gap: 15%;
+  padding: 50px;
+  
 }
 
 .productAdjustTemp{
   display: flex;
   flex-direction: column;
   gap: 2em;
-  flex: 3.5;
+  flex: 60%;
   color:#7572c7;
   font-family: "Merriweather", serif;
 }
@@ -303,9 +305,9 @@ nav a:hover::before {
 }
 
 .adjustTempPrice{
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 
 }
@@ -324,13 +326,23 @@ align-items: center;
   text-transform: uppercase;
 }
 
+.adjustTempPrice a:hover {
+  background-color: #5a57b6;
+}
 
+.productPicture{
+  display: flex;
+  flex: 60%;
+  gap: 0.5em;
+  flex-wrap: wrap;
 
+}
 
-
-
-
-
+.productPicture img {
+  width: 225px;
+  height: auto;
+  border-radius: 10%;
+ }
 
 
 /*Stylesheet for Profile and login*/
