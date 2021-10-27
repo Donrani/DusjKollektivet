@@ -26,11 +26,12 @@
 .navLink {
   display: flex;
   align-self: center;
-  justify-content: space-around;
-  width: 500px;
+  justify-content: space-between;
+  width: 800px;
   flex-wrap: wrap;
   color: #7572c7;
   list-style-type: none;
+  gap: 5px;
 }
 
 .navLogo {
