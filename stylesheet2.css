@@ -81,7 +81,6 @@ nav a:hover::before {
 .flexFooterColumns {
   display: flex;
   flex-direction: column;
-  
 }
 
 .footerColumn {
@@ -216,71 +215,62 @@ nav a:hover::before {
 /*Stylesheet for AboutUs*/
 
 #mainContainer {
+  padding-top: 2%;
   display: flex;
   flex-direction: column;
   height: 100vh;
   background-color: #ececec;
-  color: #7572c7;
 }
-
-#aboutText {
+#aboutContainer{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  flex: 0.5;
-  align-content: space-between;
-  font-size: 15px;
+  align-self: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-#historyContainer {
+#employeesContainer{
+  margin-top: 2%;
   display: flex;
   flex-direction: row;
-}
-.historyContainerList img {
-  width: 100px;
-  height: 50px;
-}
-.historyContainerList li {
-  background-color: #7572c7;
-  padding: 1.5px;
-  color: #ececec;
-  border-width: 5px;
-  border-style: solid;
-  list-style-type: none;
-  font-size: 25px;
-}
-
-.symbols {
-  width: 100px;
-  height: 50px;
-}
-
-#employeesContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   justify-content: center;
-  flex: 0.25;
+  gap: 3%;
   flex-wrap: wrap;
 }
-.imageContainer {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 
-  margin: 0 1em;
-  border-style: solid;
-  border-color: black;
-  border-width: 0.5px;
+.imageContainer{
+  display: flex;
+  background-color: rgb(65, 65, 65);
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 5px;
+  min-width: 250px;
+  flex-direction: column;
+  gap: 5px;
+  color: #ececec;
+  font-size: 16px;
 }
-.profilePicture {
-  width: 150px;
-  height: 200px;
-  border-radius: 5rem;
+
+.profilePicture{
+  width: 160px;
+  height: 206px; /*Må endres */ 
 }
+
+.infoContainer{
+  padding-top: 10px;
+  background: #e2e2e2;
+  height: 20em;
+  border-radius: 5px;
+  max-width: 270px;
+  gap: 5px;
+
+
+
+}
+
 
 /*Stylesheet for Products*/
 
-.productPageFlex{
+.productPageFlex {
   display: flex;
   height: auto;
   background-color: #ececec;
@@ -288,31 +278,28 @@ nav a:hover::before {
   flex: 1 100%;
   row-gap: 15%;
   padding: 50px;
-  
 }
 
-.productAdjustTemp{
+.productAdjustTemp {
   display: flex;
   flex-direction: column;
   gap: 2em;
   flex: 60%;
-  color:#7572c7;
+  color: #7572c7;
   font-family: "Merriweather", serif;
 }
 
-.productAdjustTemp h2{
+.productAdjustTemp h2 {
   font-size: 3em;
-  font-family:"Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-.adjustTempPrice{
+.adjustTempPrice {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
 }
-.adjustTempPrice a{
+.adjustTempPrice a {
   text-decoration: none;
   background-color: #7572c7;
   width: fit-content;
@@ -331,19 +318,131 @@ nav a:hover::before {
   background-color: #5a57b6;
 }
 
-.productPicture{
+.productPicture {
   display: flex;
   flex: 60%;
   gap: 0.5em;
   flex-wrap: wrap;
-
 }
 
 .productPicture img {
   width: 225px;
   height: auto;
   border-radius: 10%;
- }
+}
+
+/* Stylesheet for Contact Us */
+
+.contactPage {
+  display: flex;
+  background-color: #ececec;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.topContainer {
+  margin-top: 3%;
+  flex: 0.25;
+  color: #7572c7;
+  align-self: center;
+  font-size: 1.5em;
+}
+
+.middleContainer {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  flex: 1;
+}
+
+.letterPicture {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: auto;
+  justify-content: center;
+}
+
+.letterPicture img {
+  width: 500px;
+  height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .letterPicture img {
+    width: 200px;
+    height: auto;
+  }
+  .middleContainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .letterPicture {
+    flex: 0.125;
+  }
+}
+
+.fillin {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #5a57b6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: rgba(255, 255, 255, 0.651);
+}
+
+input[type="submit"] {
+  background-color: #7572c7;
+  color: #ececec;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #5a57b6;
+}
+
+/*Stylesheet for contactSubmit*/
+
+.submitContainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #ececec;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #7572c7;
+  gap: 2em;
+  font-size: 2.5em
+}
+
+.submitContainer a {
+  background-color: #7572c7;
+  width: fit-content;
+  padding: 5px;
+  text-decoration: none;
+  color:#ececec;
+  border-radius: 4px;
+}
+.submitContainer a:hover{
+  background-color:#5a57b6;
+}
 
 
 /*Stylesheet for Profile and login*/

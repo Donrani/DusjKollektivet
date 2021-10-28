@@ -37,33 +37,82 @@
         <main>
             
         <div class="contactPage">
-            
-
-            <h1>Have some questions?</h1>
+          
+        <div class="topContainer">
+          <h1>Have some questions?</h1>
+        </div>
         
-        <div class="contactContainer">
+        <div class="middleContainer">
 
             <div class="letterPicture">
-                <img src="/Style/Brev.png" alt="Bilde av et brev">
+              
+              <div><img src="/Style/Brev.png" alt="Bilde av et brev"></div>
             
-                
-
             </div>
 
             <div class="fillin">
+
+              <form action="contactSubmit.html"> 
+              
+
+                <label for="fname">
+                <input type="text" id="fname" name="firstname" placeholder="Enter your name">
             
+                <label for="lemail">
+                <input type="text" id="lemail" name="email" placeholder="What's your email?">
+            
+          
+            
+                <label for="subject">
+                <textarea id="subject" name="subject" placeholder="Type your questions here" style="height:200px"></textarea>
+            
+                <input type="Submit" value="Submit">
+
+                </label>
+              </div>
             </div>
-        
-        </div>
 
-        </div>
-    
+                </div>
+              </form>
+
+            <footer>
+
+              <div class="footer-container">
+                <div class="footer footerColumn">
+                  <h2>About Us</h2>
+                  <div class="flexFooterColumns">
+                    <a href="#">Investors</a>
+                    <a href="#">Terms of Service</a>
+                  </div>
+                </div>
+          
+                <div class="footer-heading footer-2 footerColumn">
+                  <h2>Contact Us</h2>
+                  <div class="flexFooterColumns">
+                    <a href="#">Contact</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Support</a>
+                    <a href="#">Sponsorship</a>
+                  </div>
+                </div>
+          
+                <div class="footer-email-form newsLetter footerColumn">
+                  <h2>Join Our newsletter</h2>
+                  <div>
+                    <input
+                      type="email"
+                      placeholder="Enter your emailadress"
+                      id="footer-email"
+                    />
+                    <input type="submit" value="Sign Up" id="footer-email-btn" />
+                  </div>
+                </div>
+              </div>
+              <div id = "copyright">
+                © 2021 Dusj Kollektivet - All Rights Reserved.
+              </div>
+            </footer>
 
 
-
-
-
-
-
-        </main>
     </body>
+    </html>
