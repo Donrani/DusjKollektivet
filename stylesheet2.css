@@ -226,8 +226,40 @@ nav a:hover::before {
   flex-direction: column;
   align-self: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 40px;
+  align-content: center;
 }
+
+#aboutContainer h1{
+  display: flex;
+  color: #7572c7;
+  align-self: center;
+  font-size: 3em;
+}
+
+#aboutContainer h2{
+  display: flex;
+  color: #7572c7;
+  font-style: italic;
+}
+
+
+#aboutContainer h3{
+  display: flex;
+  align-self: center;
+  margin-bottom: 20px;
+  color: #7572c7;
+  font-size: 2.5em;
+  
+}
+ #aboutContainer p{
+   display: flex;
+   align-self: center;
+   color:gray;
+   font-style: italic;
+ }
+
+
 #employeesContainer{
   margin-top: 2%;
   display: flex;
@@ -239,7 +271,7 @@ nav a:hover::before {
 
 .imageContainer{
   display: flex;
-  background-color: rgb(65, 65, 65);
+  background-color: rgb(51, 51, 51);
   align-items: center;
   padding: 10px 10px;
   border-radius: 5px;
@@ -257,14 +289,39 @@ nav a:hover::before {
 
 .infoContainer{
   padding-top: 10px;
-  background: #e2e2e2;
+  background: #757575;
   height: 20em;
   border-radius: 5px;
   max-width: 270px;
   gap: 5px;
+  max-height: 20px;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color:white;  
+}
 
+.imageContainer:hover{
+  background-color: #7572c7;
+  transition-duration: 350ms;
+}
 
+.imageContainer:hover .profilePicture{
+  width: 250px;
+  height: auto;
+  max-height: 350px;
+  transition-duration: 350ms;
+}
 
+.imageContainer:hover + .infoContainer{
+  text-overflow:initial;
+  white-space: normal;
+  overflow: visible;
+  max-height: 250px;
+  background-color:#7572c7;
+  color:white;
+  transition-duration: 250ms;
+  
 }
 
 
