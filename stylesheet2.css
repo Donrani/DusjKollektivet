@@ -218,9 +218,23 @@ nav a:hover::before {
   padding-top: 2%;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 150vh;
   background-color: #ececec;
 }
+
+@media screen and (max-width: 1203px) {
+  #mainContainer{
+  height: 180vh;
+  }
+}
+
+@media screen and (max-width: 573px) {
+  #mainContainer{
+  height: 200vh;
+  }
+}
+
+
 #aboutContainer{
   display: flex;
   flex-direction: column;
@@ -235,12 +249,14 @@ nav a:hover::before {
   color: #7572c7;
   align-self: center;
   font-size: 3em;
+  font-family: "Lato", sans-serif;
 }
 
 #aboutContainer h2{
   display: flex;
   color: #7572c7;
   font-style: italic;
+  font-family: "Lato", sans-serif;
 }
 
 
@@ -250,6 +266,7 @@ nav a:hover::before {
   margin-bottom: 20px;
   color: #7572c7;
   font-size: 2.5em;
+  font-family: "Lato", sans-serif;
   
 }
  #aboutContainer p{
@@ -257,6 +274,8 @@ nav a:hover::before {
    align-self: center;
    color:gray;
    font-style: italic;
+   font-family: "Merriweather", serif;
+   font-size: 0.8em;
  }
 
 
@@ -280,6 +299,7 @@ nav a:hover::before {
   gap: 5px;
   color: #ececec;
   font-size: 16px;
+  font-family: "Merriweather", serif;
 }
 
 .profilePicture{
@@ -294,11 +314,17 @@ nav a:hover::before {
   border-radius: 5px;
   max-width: 270px;
   gap: 5px;
-  max-height: 20px;
+  max-height: 35px;
   text-overflow:ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  color:white;  
+  color:white;
+  font-family: "Merriweather", serif;
+  line-height: 2;
+}
+.infoContainer p:first-of-type{
+margin-bottom: 0.5em;
+
 }
 
 .imageContainer:hover{
@@ -320,9 +346,55 @@ nav a:hover::before {
   max-height: 250px;
   background-color:#7572c7;
   color:white;
-  transition-duration: 250ms;
-  
+  transition: all ease-in-out 850ms;
+  max-height:280px;
+  margin-top: 5%;
+  padding: 1em;
+
 }
+
+.coreValuesContainer{
+  display: flex;
+  color: #7572c7;
+  flex-direction: column;
+  gap: 2em;
+  padding-top: 10em;
+}
+
+.coreValuesText{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5em;
+
+}
+
+.coreValuesText h3{
+  font-size: 2.5em;
+}
+
+.coreValuesText ul{
+  display: flex;
+  font-size: 1.5em;
+  list-style-type: none;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.coreValuesImage{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.coreValuesImage img{
+width: 400px;
+height: auto;
+border-radius: 5%;
+}
+
 
 
 /*Stylesheet for Products*/
@@ -386,6 +458,7 @@ nav a:hover::before {
   width: 225px;
   height: auto;
   border-radius: 10%;
+  
 }
 
 /* Stylesheet for Contact Us */
