@@ -371,6 +371,7 @@ margin-bottom: 0.5em;
 
 .coreValuesText h3{
   font-size: 2.5em;
+  font-family: "Lato", sans-serif;
 }
 
 .coreValuesText ul{
@@ -379,6 +380,7 @@ margin-bottom: 0.5em;
   list-style-type: none;
   flex-direction: column;
   gap: 0.3em;
+  font-family:"Merriweather", serif;
 }
 
 .coreValuesImage{
@@ -482,6 +484,7 @@ border-radius: 5%;
   color: #7572c7;
   align-self: center;
   font-size: 1.5em;
+  font-family: "Lato", sans-serif;
 }
 
 .middleContainer {
@@ -561,11 +564,13 @@ input[type="submit"]:hover {
   align-items: center;
   color: #7572c7;
   font-size: 1.5em;
+  font-family: "Lato", sans-serif;
 }
 
 .findUs p{
-  font-size: 1em;
+  font-size: 0.8em;
   font-style: italic;
+  font-family: "Merriweather", serif;
 }
 
 .findUs img{
@@ -587,7 +592,8 @@ input[type="submit"]:hover {
   align-items: center;
   color: #7572c7;
   gap: 2em;
-  font-size: 2.5em
+  font-size: 2.5em;
+  font-family: "Lato", sans-serif;
 }
 
 .submitContainer a {
@@ -611,6 +617,7 @@ input[type="submit"]:hover {
   flex-direction: column;
   gap: 5em;
   background-color: #ececec;
+  font-family: "Lato", sans-serif;
 }
 
 #registerSite{
@@ -689,6 +696,7 @@ a {
   height: 80vh;
   justify-content: center;
   color: #7572c7;
+  font-family: "Lato", sans-serif;
 }
 
 
@@ -707,6 +715,7 @@ a {
 .cartSiteContainer h1 {
 color: #8c88e9;
 font-size: 3em;
+font-family: "Lato", sans-serif;
 }
 
 
@@ -717,6 +726,7 @@ font-size: 3em;
   border-color: white;
   border-style: solid;
   border-width: 3px;
+  font-family: "Merriweather", serif;
 }
 
 .cartProductContainer {
