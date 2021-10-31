@@ -15,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  height: 10vh;
+  height: 11vh;
   background-color: #ececec;
   border-bottom-style: solid;
   border-width: 2px;
@@ -110,15 +110,15 @@ nav a:hover::before {
   text-transform: uppercase;
   font-size: 35px;
   flex-wrap: wrap;
-  color: #8c88e9;
+  color:#7572c7;
   font-family: "Lato", sans-serif;
 }
 
 .forsideLogo {
   flex: 1 1 100%;
   min-width: 0;
-  width: 35vw;
-  margin-top: 10%;
+  width: 40vw;
+  margin-top: 0%;
 }
 
 /*Stylesheet for second section in Index*/
@@ -218,19 +218,19 @@ nav a:hover::before {
   padding-top: 2%;
   display: flex;
   flex-direction: column;
-  height: 150vh;
+  height: 200vh;
   background-color: #ececec;
 }
 
 @media screen and (max-width: 1203px) {
   #mainContainer{
-  height: 180vh;
+  height: 250vh;
   }
 }
 
 @media screen and (max-width: 573px) {
   #mainContainer{
-  height: 200vh;
+  height: 350vh;
   }
 }
 
@@ -417,6 +417,7 @@ border-radius: 5%;
   flex: 2;
   color: #7572c7;
   font-family: "Merriweather", serif;
+  max-width: 50em;
 }
 
 .productAdjustTemp h2 {
@@ -472,7 +473,7 @@ border-radius: 5%;
   display: flex;
   background-color: #ececec;
   flex-direction: column;
-  height: 120vh;
+  height: 200vh;
 }
 
 .topContainer {
@@ -604,10 +605,29 @@ input[type="submit"]:hover {
 
 /*Stylesheet for Profile and login*/
 
-.container {
-  margin: 5rem 15rem 0.5rem;
+.fullRegisterSite{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+  background-color: #ececec;
+}
+
+#registerSite{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  margin-top: 2em;
+
+}
+
+.registerContainer {
+  display: flex;
   font-family: "Lato", sans-serif;
   max-width: 40rem;
+  flex: 2;
+  flex-direction: column;
 }
 
 input[type="text"],
@@ -632,7 +652,7 @@ hr {
 }
 
 .registerbtn {
-  background-color: #5b69e9;
+  background-color: #7572c7;
   color: white;
   padding: 15px 20px;
   margin-top: 1rem;
@@ -652,13 +672,25 @@ a {
 }
 
 .signIn {
+  display: flex;
+  flex: 0.25;
   background-color: #f1f1f1;
   text-align: center;
-  margin: 0rem 15rem 10rem;
   padding: 20px 0;
   font-family: "Lato", sans-serif;
   max-width: 40rem;
 }
+
+#logInSite{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ececec;
+  height: 80vh;
+  justify-content: center;
+  color: #7572c7;
+}
+
 
 /*Stylesheet for Shopping cart*/
 
@@ -666,24 +698,37 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 70vh;
+  height: 80vh;
+  justify-content: center;
+  gap: 5em;
+  background-color: #ececec;
 }
+
+.cartSiteContainer h1 {
+color: #8c88e9;
+font-size: 3em;
+}
+
 
 .allroundContainer {
   display: flex;
   flex-direction: row;
-  margin: 5rem auto;
   flex-wrap: wrap;
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
 }
 
 .cartProductContainer {
   display: flex;
   flex-direction: column-reverse;
   margin: 0.5rem 2rem;
+  font-size: 20px;
 }
 .cartProductImage {
   width: 200px;
   height: auto;
+  border-radius: 5%;
 }
 
 .cartSumContainer {
@@ -696,13 +741,17 @@ a {
 .cartSumContainer a {
   text-decoration: none;
   border-style: solid;
-  background-color: #8c56f0;
+  background-color: #7572c7;
   color: #ececec;
   font-size: 20px;
   text-align: center;
   width: 6rem;
+  border-radius: 5%;
 }
 
-#registerSite {
-  height: 70vh;
+.cartSumContainer a:hover {
+
+  background-color: #8c88e9;
+
 }
+
