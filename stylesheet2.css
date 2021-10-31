@@ -126,7 +126,7 @@ nav a:hover::before {
 .second {
   width: auto;
   height: 100vh;
-  background-image: url(/Style/Droplet.jpg);
+  background-image: url(Droplet.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -161,7 +161,7 @@ nav a:hover::before {
 /*Stylesheet for third section in Index*/
 
 .third {
-  background-image: url(/Style/underwater2.png.jpg);
+  background-image: url(underwater2.png.jpg);
   background-size: 100%;
   text-align: center;
   background-repeat: no-repeat;
