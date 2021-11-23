@@ -56,9 +56,9 @@ nav a::before {
   content: "";
   height: 3px;
   background-color: #7572c7;
-  position: absolute;
+  position: fixed;
   top: 0;
-  width: 0%;
+  width: 5%;
 }
 
 nav a:hover::before {
